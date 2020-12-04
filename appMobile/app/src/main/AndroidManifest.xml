@@ -8,8 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppMobile">
-        <activity android:name=".ActivityRegister"></activity>
+        android:theme="@style/Theme.AppMobile.NoActionBar">
+        <activity android:name=".ActivityTelaContato"></activity>
+        <activity android:name=".ActivityPerfil" />
+        <activity android:name=".ActivityContrato" />
+        <activity android:name=".ActivityConsultaServico" />
+        <activity android:name=".ActivityConsultaSocio" />
+        <activity android:name=".ActivityConsultaCliente" />
+        <activity android:name=".ActivityCadastroServico" />
+        <activity android:name=".ActivityCadastroSocio" />
+        <activity android:name=".ActivityCadastroCliente" />
+        <activity android:name=".ActivityMap" />
+        <activity android:name=".ActivitySearch" />
+        <activity android:name=".Info" />
+        <activity android:name=".ActivityRegister" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

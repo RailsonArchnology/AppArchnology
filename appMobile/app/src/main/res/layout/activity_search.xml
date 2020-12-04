@@ -4,6 +4,124 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundocompletopng"
     tools:context=".ActivitySearch">
+
+    <ImageView
+        android:id="@+id/imageViewSearchPartner"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@drawable/funcionario" />
+
+    <TextView
+        android:id="@+id/textViewSearchPartner"
+        android:layout_width="50dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Sócio"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewSearchPartner"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewSearchPartner"
+        app:layout_constraintStart_toStartOf="@+id/imageViewPartner"
+        app:layout_constraintTop_toTopOf="@+id/imageViewSearchPartner"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <ImageView
+        android:id="@+id/imageViewSearchClient"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSearchPartner"
+        app:layout_constraintTop_toTopOf="@+id/imageViewSearchPartner"
+        app:layout_constraintVertical_bias="0.505"
+        app:srcCompat="@drawable/usuario" />
+
+    <TextView
+        android:id="@+id/textViewSearchClient"
+        android:layout_width="61dp"
+        android:layout_height="23dp"
+        android:text="Cliente"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewSearchClient"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewSearchClient"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSearchClient"
+        app:layout_constraintTop_toTopOf="@+id/imageViewSearchClient"
+        app:layout_constraintVertical_bias="0.855" />
+
+    <ImageView
+        android:id="@+id/imageViewSearchContract"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewSearchPartner"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSearchPartner"
+        app:layout_constraintVertical_bias="0.264"
+        app:srcCompat="@drawable/contrato" />
+
+    <TextView
+        android:id="@+id/textViewSearchContract"
+        android:layout_width="74dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="12dp"
+        android:text="Contrato"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewSearchContract"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewSearchContract"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSearchContract"
+        app:layout_constraintTop_toTopOf="@+id/imageViewContract"
+        app:layout_constraintVertical_bias="0.855" />
+
+    <TextView
+        android:id="@+id/textViewSearchScreen"
+        android:layout_width="177dp"
+        android:layout_height="56dp"
+        android:shadowColor="#000000"
+        android:shadowDx="6"
+        android:shadowDy="6"
+        android:shadowRadius="1"
+        android:text="Consulta"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <TextView
+        android:id="@+id/textViewBackToMenuConsulta"
+        android:layout_width="69dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="4dp"
+        android:text="Voltar"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
